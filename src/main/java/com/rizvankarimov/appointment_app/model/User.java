@@ -2,9 +2,7 @@ package com.rizvankarimov.appointment_app.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-import org.springframework.stereotype.Service;
+
 
 import java.time.LocalDateTime;
 
@@ -36,8 +34,6 @@ public class User {
     @Column(name="role", nullable = false)
     private Role role;
 
-    public Role getRole() {
-        return role;
-    }
+
 
 }
